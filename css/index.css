@@ -1,0 +1,45 @@
+body {
+ background-color: black;
+color: aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+background-image: url("../assets/batman-1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: gold;
+}
+
+.imagens-batman{
+
+    height: 100px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+transition: transform 0.3s;
+}
+
+.imagens-batman:hover{
+ 
+    transform: scale(1.1);
+
+}
+
+
+.galeria {
+display: flex;
+justify-content: center;
+gap: 20px;
+
+}
+
+p {
+    color: aqua;
+}
+
+footer p{
+    color: rgb(255, 0, 204);
+}
